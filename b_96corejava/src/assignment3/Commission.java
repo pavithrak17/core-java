@@ -2,23 +2,23 @@ package assignment3;
 
 public class Commission {
 	private String Name;
-    private double Sales_amount;
+    private double Salesamount;
 
     // Method to accept details of the sales employee
-    public void acceptDetails(String name, String address, String phone, double sales_amount) {
+    public void acceptDetails(String name, String address, String phone, double salesamount) {
         this.Name = name;
-        this.Sales_amount = sales_amount;
+        this.Salesamount = salesamount;
     }
 
     // Method to calculate the commission
     public double calculateCommission() {
         double commission = 0.0;
-        if (Sales_amount >= 100000) {
-            commission = Sales_amount * 0.10;
-        } else if (Sales_amount >= 50000) {
-            commission = Sales_amount * 0.05;
-        } else if (Sales_amount >= 30000) {
-            commission = Sales_amount * 0.03;
+        if (Salesamount >= 100000) {
+            commission = Salesamount * 0.10;
+        } else if (Salesamount >= 50000) {
+            commission = Salesamount * 0.05;
+        } else if (Salesamount >= 30000) {
+            commission = Salesamount * 0.03;
         }
         return commission;
     }
