@@ -5,7 +5,7 @@ public class WithoutException {
 		int d=0;
 		try {
 		int a= 42/d;// exception is raised
-		System.out.println("Pavi");
+		System.out.println("");
 		}
 		catch(ArithmeticException e) {
 		System.out.println("Exception Handles Successfully"+e.getMessage());
