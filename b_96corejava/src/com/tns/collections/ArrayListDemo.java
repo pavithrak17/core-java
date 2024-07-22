@@ -9,7 +9,7 @@ public class ArrayListDemo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-//		ArrayList ob =new ArrayList();
+//		ArrayList ob =new ArrayList();//raw type, generic ,parameteric
 //		System.out.println("The size of the arrayList"+" "+ob.size());
 //		ob.add(2);
 //		ob.add('a');
